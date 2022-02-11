@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #three {
+        /* width: min(100vw, 100vh);
+        height: min(100vw, 100vh); */
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+      }
+
+      canvas {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="three" class="center"></div>
+  </body>
+</html>
